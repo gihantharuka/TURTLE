@@ -1244,7 +1244,7 @@ margin-bottom: 15px;
 }
 .donbut button{
     border: 1px solid black;
-    background-color: rgb(109, 202, 171);
+    
     float: right;
     color: white;
     margin-right: 30px;
@@ -1262,10 +1262,10 @@ margin-bottom: 15px;
  height: 280px;
  margin-right: 40px;
  margin-bottom: 30px;
- line-height: 25px;
+
  margin-left: 30px;
  border-radius: 1em;
- background-color: rgb(109, 202, 171);
+ 
  
 }
 /*donation page*/
