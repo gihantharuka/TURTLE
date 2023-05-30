@@ -600,6 +600,48 @@ footer{
   display: none;
 }
 
+.otherlinks{
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid gray;
+  border-radius: 2em;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+.otherlinks .linbox{
+  text-align: center;
+  width: 50%;
+}
+.otherlinks .linbox img{
+  height: 200px;
+  width: 300px;
+ border-radius: 1em;
+ margin-bottom: 15px;
+ margin-top: 15px;
+ transition: transform .2s;
+}
+.otherlinks .linbox img:hover{
+  transform: scale(1.1);
+
+}
+.otherlinks .linbox button{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: transform .2s;
+   background:#88B04B;
+  
+
+}
+.otherlinks .linbox button:hover{
+  transform: scale(1.1);
+  background: #afd548;
+}
 /*Purchase page*/
 /*Donation button*/
 .donbut {
@@ -810,7 +852,7 @@ margin-top: 10px;
   background: #afd548;
 }
 
-@media (max-width:870px){
+@media (max-width:480px){
 
   /*nav bar*/
 
@@ -1228,6 +1270,31 @@ margin-top: 10px;
  margin-top: 10px;
 margin-bottom: 15px;
  margin-left: 5%;
+}
+  .otherlinks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid gray;
+  border-radius: 2em;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  
+}
+.otherlinks .linbox{
+  text-align: center;
+  width: 100%;
+}
+.otherlinks .linbox button{
+  margin-bottom: 10px;
+}
+.otherlinks .linbox h3{
+  margin-top: 10px;
 }
 /*Purchase page*/
  .purchase{
