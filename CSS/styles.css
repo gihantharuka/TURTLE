@@ -569,24 +569,25 @@ footer{
 }
 
 .threbox .threpara button{
+  padding: 8px;
   margin-top: 15px;
   margin-left: 5px;
-  height: 25px;
-  border-radius: 1em;
-  border: 1px solid black;
-  width: 150px;
+  border-radius: 2em;
+  border: 1px solid gray;
   cursor: pointer;
   text-align: center;
+  background:#88B04B;
+  transition: transform .2s;
+  color: white;
 }
 .threbox .threpara button:hover{
-  background-color: azure;
+ background: #afd548;
+ transform: scale(1.1);
+  
 }
 .threbox .threimg{
     width: 50%;
-    text-align: center;
-   
-    /*justify-content: space-between;*/
-    
+    text-align: center;   
 }
 .threbox .threimg img{
  height: 400px;
@@ -634,7 +635,8 @@ footer{
   border-radius: 2em;
   cursor: pointer;
   transition: transform .2s;
-   background:#88B04B;
+  background:#88B04B;
+  color: white;
   
 
 }
