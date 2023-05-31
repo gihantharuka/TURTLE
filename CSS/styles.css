@@ -469,6 +469,21 @@ footer{
 .cattable table img:hover{
    transform: scale(1.08);
 }
+.cattable tfoot tr td{
+    border: 1.5px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+.cattable tfoot{
+     background: #c9da9c;
+
+}
+.cattable tfoot a{
+    text-decoration: none;  
+}
+.cattable tfoot a:hover{
+    color: black
+}
 
 /*Hikkaduwa page*/
 /*Main image*/
