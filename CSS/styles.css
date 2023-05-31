@@ -126,6 +126,7 @@ header label{
 .mheading{
   display: none;
 }
+
 .lparabox{
     display: flex;
     margin-left: 60px;
@@ -931,9 +932,11 @@ margin-top: 10px;
     display: none;
   }
   .mheading{
-    display: contents;
-   
-    
+    display: contents;   
+  }
+  
+  #home11{
+    flex-direction: column;
   }
   .lparabox{
     flex-direction: column-reverse;
@@ -1146,6 +1149,11 @@ margin-top: 10px;
    width: 100px;
    text-align: center;
 }
+  
+  #hikka11{
+    flex-direction:column;
+  
+  }
 .lparabox{
     display: flex;
     flex-direction: column-reverse;
